@@ -1,0 +1,20 @@
+{
+  "hooks": {
+    "PostToolUse": [
+      {
+        "matcher": "Write|Edit",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "jq -r '.tool_input.file_path // .tool_response.filePath // empty' 2>/dev/null | { read -r f || exit 0; case \"$f\" in *public/images/characters/*.svg) printf '{\"systemMessage\":\"Asset SVG escrito — corre /asset-catalog characters\"}';; *public/images/icons/*.png) printf '{\"systemMessage\":\"Asset icono PNG escrito — corre /asset-catalog icons\"}';; *public/audio/music/*.ogg) printf '{\"systemMessage\":\"Asset OGG escrito — corre /asset-catalog music\"}';; *public/images/backgrounds/*.png) printf '{\"systemMessage\":\"Asset background PNG escrito — corre /asset-catalog backgrounds\"}';; *) exit 0;; esac; }"
+          },
+          {
+            "type": "command",
+            "command": "node scripts/i18n-guard.js",
+            "statusMessage": "Checking item text against i18n dictionaries..."
+          }
+        ]
+      }
+    ]
+  }
+}

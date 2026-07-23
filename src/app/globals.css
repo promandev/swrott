@@ -1,0 +1,299 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+  --bg: #05050a;
+  --fg: #e4e4e7;
+  --accent: #c41e3a;
+  --gilt: #c9a961;
+}
+
+html,
+body {
+  background: var(--bg);
+  color: var(--fg);
+  min-height: 100%;
+  overscroll-behavior: none;
+}
+
+body {
+  font-family: var(--font-inter), Inter, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle vignette for cinematic feel */
+.vignette::after {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(
+    ellipse at center,
+    transparent 50%,
+    rgba(0, 0, 0, 0.65) 100%
+  );
+  z-index: 1;
+}
+
+/* Scrollbar styling */
+::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+::-webkit-scrollbar-thumb {
+  background: #3a3a42;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #7a0a14;
+}
+
+/* Selection */
+::selection {
+  background: rgba(196, 30, 58, 0.45);
+  color: #fff;
+}
+
+/* Reusable panel */
+@layer components {
+  .panel {
+    @apply bg-panel-grad shadow-panel border border-gilt-700/20 rounded-md backdrop-blur-sm;
+  }
+  .btn-sith {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 font-display tracking-wider uppercase text-sm
+           text-ash-100 bg-blood-grad border border-gilt-700/40 rounded-sm
+           hover:shadow-sith-glow transition-all duration-200
+           disabled:opacity-40 disabled:cursor-not-allowed;
+  }
+  .btn-ghost {
+    @apply inline-flex items-center justify-center gap-2 px-5 py-2.5 font-display tracking-wider uppercase text-sm
+           text-ash-200 bg-void-800/60 border border-ash-500/30 rounded-sm
+           hover:border-gilt-500/50 hover:text-gilt-400 transition-all duration-200;
+  }
+  .heading-display {
+    @apply font-display tracking-[0.2em] uppercase text-gilt-500;
+  }
+}
+
+/* ── HUD ─────────────────────────────────────────────────────────────── */
+
+/* Vitals bars: a recessed groove with a glossy, glowing fill. */
+.hud-bar {
+  background: linear-gradient(180deg, #07070c 0%, #0d0d14 100%);
+  border: 1px solid rgba(201, 169, 97, 0.18);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.8);
+}
+.hud-bar-fill {
+  position: relative;
+  transition: width 0.45s cubic-bezier(0.22, 1, 0.36, 1);
+  box-shadow:
+    inset 0 1px 0 rgba(255, 255, 255, 0.35),
+    inset 0 -2px 4px rgba(0, 0, 0, 0.45),
+    0 0 10px rgba(196, 30, 58, 0.35);
+}
+.hud-bar-fill::after {
+  /* moving sheen along the fill */
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    100deg,
+    transparent 30%,
+    rgba(255, 255, 255, 0.22) 50%,
+    transparent 70%
+  );
+  background-size: 220% 100%;
+  animation: hud-bar-sheen 4.5s ease-in-out infinite;
+}
+@keyframes hud-bar-sheen {
+  0%, 55% { background-position: 160% 0; }
+  100%    { background-position: -60% 0; }
+}
+
+/* Portrait frame lift */
+.hud-portrait {
+  filter: drop-shadow(0 4px 10px rgba(0, 0, 0, 0.7));
+}
+
+/* Icon nav bar: a slim translucent rail with a gilt hairline. */
+.hud-nav {
+  background: linear-gradient(180deg, rgba(17, 17, 26, 0.72) 0%, rgba(7, 7, 12, 0.82) 100%);
+  border: 1px solid rgba(201, 169, 97, 0.16);
+  box-shadow: 0 6px 26px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  backdrop-filter: blur(6px);
+}
+.hud-nav-btn::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  background: radial-gradient(ellipse at center, rgba(201, 169, 97, 0.14), transparent 70%);
+  opacity: 0;
+  transition: opacity 0.15s ease;
+}
+.hud-nav-btn:hover::before { opacity: 1; }
+.hud-nav-btn:active { transform: translateY(1px); }
+
+/* Cinematic film grain + bloom over the whole play view. */
+.atmo-grain::before {
+  content: "";
+  pointer-events: none;
+  position: fixed;
+  inset: -50%;
+  z-index: 2;
+  opacity: 0.05;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+  animation: grain-shift 0.6s steps(3) infinite;
+}
+@keyframes grain-shift {
+  0%   { transform: translate(0, 0); }
+  33%  { transform: translate(-3%, 2%); }
+  66%  { transform: translate(2%, -3%); }
+  100% { transform: translate(0, 0); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hud-bar-fill::after,
+  .atmo-grain::before { animation: none; }
+}
+
+/* ── Combat ──────────────────────────────────────────────────────────── */
+
+/* White-hot impact flash on a combatant sprite the moment a hit lands. */
+@keyframes hit-flash {
+  0% {
+    filter: brightness(2.6) saturate(1.8) drop-shadow(0 0 16px rgba(255, 90, 90, 0.85));
+  }
+  100% {
+    filter: brightness(1) saturate(1);
+  }
+}
+.hit-flash {
+  animation: hit-flash 0.34s ease-out;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .hit-flash { animation: none; }
+}
+
+/* ── Particle animations ─────────────────────────────────────────────── */
+@keyframes particle-rise {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: var(--start-opacity, 0.6);
+  }
+  100% {
+    transform: translateY(-110vh) translateX(var(--drift, 0px)) scale(0.3);
+    opacity: 0;
+  }
+}
+
+@keyframes particle-fall {
+  0% {
+    transform: translateY(0) translateX(0) scale(1);
+    opacity: var(--start-opacity, 0.4);
+  }
+  100% {
+    transform: translateY(110vh) translateX(var(--drift, 0px)) scale(0.5);
+    opacity: 0;
+  }
+}
+
+@keyframes fog-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+.particle-up {
+  animation: particle-rise linear infinite;
+}
+.particle-down {
+  animation: particle-fall linear infinite;
+}
+.fog-drift {
+  animation: fog-scroll linear infinite;
+}
+
+/* Storm lightning: long dark pause, then a fast double-strobe. */
+@keyframes storm-strobe {
+  0%, 88% { opacity: 0; }
+  89%     { opacity: 0.9; }
+  90.5%   { opacity: 0.15; }
+  92%     { opacity: 1; }
+  94%     { opacity: 0.3; }
+  96%     { opacity: 0.6; }
+  100%    { opacity: 0; }
+}
+.storm-flash {
+  animation: storm-strobe ease-in-out infinite;
+}
+
+/* ── Intro cinematic / menu polish ───────────────────────────────────── */
+
+/* Slow planetary surface drift — texture layer is 300% wide and repeats
+   every 100%, so a -33.333% shift loops seamlessly. */
+@keyframes planet-drift {
+  from { transform: translateX(0); }
+  to   { transform: translateX(-33.333%); }
+}
+.planet-drift {
+  animation: planet-drift linear infinite;
+}
+
+/* Hyperspace drop: radial streaks that stretch then vanish. */
+@keyframes hyperspace-out {
+  0%   { opacity: 0.9; transform: scale(1); }
+  70%  { opacity: 0.5; transform: scale(1.6); }
+  100% { opacity: 0;   transform: scale(2.4); }
+}
+.hyperspace-out {
+  animation: hyperspace-out 1.6s ease-out forwards;
+}
+
+/* Gold sheen sweeping across the title's gradient text. */
+@keyframes title-sheen {
+  0%, 60%  { background-position: -120% 0; }
+  100%     { background-position: 220% 0; }
+}
+.title-sheen {
+  background-size: 220% 100%;
+  animation: title-sheen 7s ease-in-out infinite;
+}
+
+/* Very slow push-in on the menu backdrop (Ken Burns). */
+@keyframes menu-kenburns {
+  0%   { transform: scale(1.09) translateY(-0.6%); }
+  100% { transform: scale(1.0) translateY(0); }
+}
+.menu-kenburns {
+  animation: menu-kenburns 38s ease-out forwards;
+}
+
+/* ── Accessibility (applied by AccessibilitySync) ─────────────────────── */
+
+/* Reduced motion: neutralize CSS animations/transitions for users who opt in.
+   Framer-motion components gate themselves in JS; this covers CSS keyframes
+   (pulse/flicker/ember/sheen/ken-burns/etc.). */
+.reduced-motion *,
+.reduced-motion *::before,
+.reduced-motion *::after {
+  animation-duration: 0.001ms !important;
+  animation-iteration-count: 1 !important;
+  transition-duration: 0.001ms !important;
+  scroll-behavior: auto !important;
+}
+
+/* High contrast: a mild global lift. Applied on the root element so it does
+   not create a containing block for the fixed HUD/combat overlays. */
+html.high-contrast {
+  filter: contrast(1.08) saturate(1.06) brightness(1.03);
+}
