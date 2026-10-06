@@ -1,0 +1,423 @@
+{
+  "sith_acolyte": {
+    "planet": "korriban",
+    "subject": "rival Sith acolyte, young and wiry, black training robes with a crimson sash belt and forearm wraps, brown hair, green eyes, red ritual marks painted on both cheeks, fists clenched at the sides, desperate aggression in the stance"
+  },
+  "corrupted_pilgrim": {
+    "planet": "korriban",
+    "subject": "corrupted would-be acolyte, tattered pilgrim robes bleached by tomb dust, skin grey and veined black at the temples and hands, eyes filmed over with dark-side corruption, mouth slack, arms hanging wrong, shuffling forward off-balance",
+    "notes": "El lado oscuro lleva su mente como un guante: el cuerpo se mueve antes que la intención. Postura desarticulada."
+  },
+  "klor_slug": {
+    "planet": "korriban",
+    "subject": "venomous insectoid burrower, segmented chitinous grey-green body the length of a man, many small scrabbling legs, dripping mandibles, a blunt eyeless head, hunched low against the ground ready to strike",
+    "notes": "Bestia sin rostro: la lectura es la silueta segmentada y las mandíbulas."
+  },
+  "tomb_scavenger": {
+    "planet": "korriban",
+    "subject": "desperate Dreshdae tomb robber, mismatched scavenged desert wraps and a dust-scarf over the face, a bulging relic sack slung across the back, a crude vibroknife reversed in one grimy hand, crouched and furtive, eyes darting",
+    "notes": "Mata a quien lo delate: el cuchillo va en agarre invertido, listo para el asalto, no para el duelo."
+  },
+  "tuk_ata": {
+    "planet": "korriban",
+    "subject": "Sith hound, muscular six-legged quadruped beast, leathery red-black hide over heavy shoulders, bony facial crests and a fan of spines along the spine, no visible eyes, jaws open in a snarl, low stalking stance",
+    "notes": "Seis patas — que se cuenten. Carmesí y negro: usa croma verde."
+  },
+  "shyrack": {
+    "planet": "korriban",
+    "subject": "bat-like cave creature, pale grey membrane wings spread wide, an eyeless screeching maw of needle teeth taking up half the body, hooked wing-claws, small clinging hind legs, caught mid-shriek",
+    "notes": "Débil en solitario: hazlo pequeño en el lienzo, con las alas abiertas ocupando el ancho."
+  },
+  "thane_deserter": {
+    "planet": "korriban",
+    "subject": "cornered deserter acolyte, hood thrown back revealing a young terrified face, dark-red under-robe torn at the sleeve, a plain knife drawn in a shaking two-handed grip, backed into a defensive crouch, tears and defiance together",
+    "notes": "Reutiliza el diseño de `npc_thane` — mismo rostro y ropa, capucha caída y cuchillo fuera."
+  },
+  "hssiss_drake": {
+    "planet": "korriban",
+    "subject": "small dark-side drake, serpentine scaled lizard body on four clawed legs, oily black-violet scales, shadow-venom weeping from the fangs and steaming where it drips, glowing violet slit eyes, long low body coiled to lunge",
+    "notes": "Versión joven y menor del `hssiss`: misma paleta, la mitad de masa."
+  },
+  "dreshdae_smuggler": {
+    "planet": "korriban",
+    "subject": "cheap arms trafficker, scuffed spacer jacket over a stained undershirt, a bandolier of mismatched power packs, blaster pistol already levelled in one hand, greasy hair, opportunist's sneer, weight forward on the toes",
+    "notes": "Depreda a acólitos solitarios: ya tiene el bláster apuntando en la pose base."
+  },
+  "tomb_droid": {
+    "planet": "korriban",
+    "subject": "ancient four-legged security droid, corroded bronze armour plating streaked with millennia of verdigris, a single red sensor eye on a squat head, an integrated blaster arm raised, heavy clawed feet, deliberate mechanical gait",
+    "notes": "Milenios de corrosión: verdín y arena incrustada en cada junta."
+  },
+  "acolyte_duelist": {
+    "planet": "korriban",
+    "subject": "veteran acolyte duelist, fitted black duelling robes with a reinforced leading shoulder and forearm guard, a dozen thin scars across the face and hands, a single red lightsaber held in a precise high guard, feet placed in a formal duelling line, patient cold focus",
+    "notes": "Preciso y paciente: la diferencia con `sith_acolyte` es la técnica — pies colocados, guardia correcta."
+  },
+  "sith_pureblood": {
+    "planet": "korriban",
+    "subject": "crimson-skinned Sith pureblood warrior, facial tendrils framing the jaw and a heavy brow ridge, ornate black-and-gold battle armour with layered plates, dual short red lightsabers held low and apart, contemptuous sneer, broad rooted stance",
+    "notes": "Desdeñoso con las especies inferiores: la barbilla alta y la mirada baja."
+  },
+  "tomb_beast": {
+    "planet": "korriban",
+    "subject": "gaunt carrion tomb predator, mottled grey hide stretched tight over a visible ribcage, long hooked claws, a blood-matted maw of uneven teeth, sunken white eyes, hunched quadruped stance with the spine arched high",
+    "notes": "Siglos comiendo carroña: famélico pero peligroso, todo hueso y tendón."
+  },
+  "daryth_rival": {
+    "planet": "korriban",
+    "subject": "rival Sith acolyte in arena combat, dark grey-black acolyte robes with the sleeves bound back, short brown hair, a single red lightsaber raised overhead, cruel ambition on a young face, aggressive forward stance",
+    "notes": "Reutiliza el diseño de `npc_daryth`: misma cara y ropa, sable encendido y la sonrisa vuelta crueldad."
+  },
+  "klor_slug_queen": {
+    "planet": "korriban",
+    "subject": "bloated insectoid queen the size of a cargo speeder, a swollen translucent grey-green egg-sac abdomen dragging behind, a massive armoured thorax, clicking layered mandibles, dozens of small thrashing limbs along the flanks, reared up at the front",
+    "notes": "Jefa. La masa está en el abdomen: que la silueta sea claramente distinta de la `klor_slug` normal.",
+    "states": {
+      "attack": "reared fully upright with the thorax exposed, layered mandibles spread wide, a spray of venom arcing from the maw, forelimbs slamming down",
+      "hurt": "thorax wrenched sideways, egg-sac split and leaking, limbs spasming, mandibles clamped shut",
+      "down": "collapsed flat with the abdomen ruptured, limbs curled inward over the body, mandibles slack in the dirt"
+    }
+  },
+  "tukata_alpha": {
+    "planet": "korriban",
+    "subject": "huge pack-leader Sith hound, twice the mass of its kin, scarred red-black hide, a bristling dark-side mane crackling with visible violet energy along the neck and spine, oversized bony crests, jaws parted in a roar, front legs braced",
+    "notes": "El doble de grande que los suyos: incluye la melena de energía como rasgo exclusivo del alfa."
+  },
+  "mine_overseer": {
+    "planet": "korriban",
+    "subject": "brutal mine slave-driver, heavy dark overseer armour with a shoulder mantle, a coiled shock-lash whip gripped in one fist, a vibroblade at the hip, a cruel scarred face with a broken nose, shaved head, weight forward and ready to swing",
+    "notes": "Comparte lenguaje de diseño con `npc_overseer_raxis` — misma armadura de supervisor, hombre y más brutal."
+  },
+  "smuggler_raider": {
+    "planet": "korriban",
+    "subject": "off-world tomb raider, scuffed spacer jacket and a loaded bandolier, blaster pistol drawn and low, a sack of stolen artefacts slung over one shoulder, dust goggles pushed up on the forehead, shifty sideways stance",
+    "notes": "Rápido con el bláster: postura de fuga, no de combate frontal."
+  },
+  "hssiss": {
+    "planet": "korriban",
+    "subject": "dark-side dragon, long serpentine scaled body on four heavy clawed legs, oily black-and-violet scales, venom dripping from bared fangs, glowing violet eyes, a crest of spines behind the skull, head lowered and body coiled",
+    "notes": "Su veneno corroe el espíritu: el goteo debe parecer sombra líquida, no baba."
+  },
+  "tomb_wraith": {
+    "planet": "korriban",
+    "subject": "spectral Sith lord remnant, semi-transparent tattered robes trailing into nothing below the waist, a skeletal glowing face inside the hood, phasing wisps of dark energy peeling off the shoulders, one skeletal hand extended, floating slightly above the ground",
+    "notes": "Aparece y desaparece: el borde inferior debe disolverse. Sin sombra proyectada."
+  },
+  "tomb_guardian_boss": {
+    "planet": "korriban",
+    "subject": "towering ancient Sith war construct, a massive body of carved stone and tarnished bronze covered in glowing red glyph-work, a featureless helm-like head, a burning red core visible through the chest seams, enormous fists at the ends of long arms, monolithic planted stance",
+    "notes": "Jefe. Protege el sanctasanctórum: que parezca una estatua que acaba de decidir moverse.",
+    "states": {
+      "attack": "one enormous fist driven downward in a shattering overhead strike, chest core flaring white-hot, glyph-work blazing along the arms",
+      "hurt": "torso wrenched back with stone plates cracking away from the shoulder, core light guttering, fissures spreading",
+      "down": "collapsed to both knees with one arm broken off at the elbow on the ground, core dimmed to a dull ember, glyphs dark"
+    }
+  },
+  "terentatek": {
+    "planet": "korriban",
+    "subject": "massive tomb-horror, hunched ape-like body with overlong forelimbs, black bristling spines down the spine and shoulders, huge upward tusks, enormous poison-slick claws, tiny beady hungry eyes in a broad flat face, knuckle-braced stance",
+    "notes": "Jefe. Se alimenta de sangre sensible a la Fuerza: hasta los Lores Sith le temen. Masa por encima de todo.",
+    "states": {
+      "attack": "rearing to full height with both clawed forelimbs raised overhead to smash down, jaws open past the tusks, spines flared",
+      "hurt": "head snapped violently to one side, one forelimb thrown out for balance, blood on the tusks",
+      "down": "slumped forward onto both forelimbs with the head hanging, spines flattened, one leg folded beneath"
+    }
+  },
+  "darth_voren": {
+    "planet": "korriban",
+    "subject": "Sith Lord master in ritual combat, corpse-pale gaunt skull-like face with burning red eyes, heavy black robe lined in dark crimson with armoured steel pauldrons, sleeves bound back for the duel, a single red lightsaber ignited and held in a contemptuous one-handed guard, utterly composed",
+    "notes": "Jefe. Reutiliza la cara y la ropa de `npc_darth_voren`, con el sable encendido y las mangas recogidas. Te considera prescindible: nunca parece esforzarse.",
+    "states": {
+      "attack": "a single precise one-handed saber thrust driven straight forward, robe barely disturbed, face impassive",
+      "hurt": "half a step back with the free hand raised, the first genuine surprise breaking the composure",
+      "down": "on one knee with the saber fallen and extinguished beside him, one hand pressed to the chest, red eyes still fixed on the viewer"
+    }
+  },
+  "ragnos_spirit": {
+    "planet": "korriban",
+    "subject": "colossal ancient Sith lord ghost, semi-transparent gold-and-green spectral armour with a tall crowned helm, a long beard of drifting mist, hollow blazing eyes, arms spread wide in judgement, the lower body dissolving into a column of spectral smoke, radiating overwhelming ancient power",
+    "notes": "Jefe de mazmorra. La sombra atada del Lord Oscuro que fundó la Edad de Oro sith: escala descomunal, verde y oro en vez de rojo.",
+    "states": {
+      "attack": "both arms sweeping forward to unleash a torrent of spectral green fire, the crown blazing, the mist-beard streaming back",
+      "hurt": "form rippling and briefly doubling as the spectral armour destabilises, crown tilted, mist shredding",
+      "down": "dissipating from the base upward, armour breaking apart into drifting motes, only the crowned head and blazing eyes still coherent"
+    }
+  },
+
+  "imperial_guard": {
+    "planet": "dromund_kaas",
+    "subject": "black-armoured Imperial soldier, full sealed helmet with a narrow visor slit, segmented matte-black plate over a dark bodyglove, a vibrosword in one hand and a blaster holstered at the thigh, rigid disciplined parade stance, rain beading on the plate",
+    "notes": "Disciplinado e inquebrantable: la postura es de formación, perfectamente simétrica."
+  },
+  "kaas_vine_cat": {
+    "planet": "dromund_kaas",
+    "subject": "six-limbed jungle predator, sleek wet-black fur slicked with rain, bioluminescent cyan fangs and eyes glowing through the gloom, a long lashing tail, splayed gripping claws, body flattened low in a pounce-ready crouch",
+    "notes": "Caza en pareja pero el sprite es individual. El cian bioluminiscente es la única luz."
+  },
+  "kaas_storm_beast": {
+    "planet": "dromund_kaas",
+    "subject": "jungle predator charged with stored lightning, a heavy quadruped body with dark wet hide, visible violet-white electricity crawling in branching arcs across the flanks and along the spine, glowing overcharged eyes, fur standing on end, braced low with steam rising off the back",
+    "notes": "Se ha alimentado del relámpago eterno: la carga almacenada debe recorrer la piel, no rodearla."
+  },
+  "kaas_gundark": {
+    "planet": "dromund_kaas",
+    "subject": "four-armed jungle brute, grey-green muscled hide, a tusked underbite and small deep-set eyes, large flared ears, two upper arms raised and two lower arms braced, thick-legged and heavy, storm-soaked",
+    "notes": "Los gundarks de Kaas crecen más que sus primos: cuatro brazos claramente diferenciados."
+  },
+  "mortis_assassin": {
+    "planet": "dromund_kaas",
+    "subject": "unmarked assassin, dark hooded bodysuit with no insignia anywhere, a face-wrap leaving only the eyes, twin poisoned curved daggers held in reverse grip, crouched low and compact, utterly anonymous",
+    "notes": "Sus agentes no lucen ningún emblema: literalmente ni una marca, ni un color, ni un adorno."
+  },
+  "temple_sentinel": {
+    "planet": "dromund_kaas",
+    "subject": "ancient war droid, tall weathered bronze chassis green with age, a narrow sensor visor, a long glaive held vertically in both hands, a shock-emitter node on the shoulder, standing in an eternal unmoved sentry pose, vines creeping up one leg",
+    "notes": "Mil años de guardia: la vegetación que lo ha empezado a reclamar cuenta el tiempo."
+  },
+  "kaas_dark_acolyte": {
+    "planet": "dromund_kaas",
+    "subject": "cult dark acolyte, soaked black temple robes with the cowl thrown back, a face gone slack and nameless with eyes rolled to white, violet lightning crawling between the outstretched fingers of both hands, head tilted listening to something that is not there, mouth slightly open",
+    "notes": "Las voces se han comido su nombre: la expresión es de escucha, no de odio. Es lo que lo hace inquietante."
+  },
+  "sludge_creeper": {
+    "planet": "dromund_kaas",
+    "subject": "pale eyeless cave horror, a slick segmented amphibian body on short splayed limbs, long sensory feelers waving from a blunt head, translucent skin showing dark organs beneath, dripping with black sludge, crouched and quivering",
+    "notes": "Caza por vibración: los apéndices sensoriales están desplegados y tensos."
+  },
+  "kaas_shadow_assassin": {
+    "planet": "dromund_kaas",
+    "subject": "Imperial shadow assassin, matte-black sealed armour with a smooth segmented helmet and no visor light, twin vibroblades held reversed along the forearms, the silhouette blurring and dissolving into streaks of falling rain at the edges, coiled low",
+    "notes": "Golpea desde la tormenta: el contorno debe deshacerse en lluvia por un lado. Comparte lenguaje con la clase `assassin`."
+  },
+  "kaas_gundark_alpha": {
+    "planet": "dromund_kaas",
+    "subject": "giant scarred alpha gundark, one tusk broken off short, a torn ragged ear, deep old scars across the chest and shoulders, storm-beaten grey-green hide, all four massive arms spread wide, head lowered in challenge",
+    "notes": "El que se llevó el brazo de Brakk: la cicatriz y el colmillo roto son obligatorios, son continuidad narrativa."
+  },
+  "kaas_temple_voice": {
+    "planet": "dromund_kaas",
+    "subject": "ancient Sith spirit manifest, several overlapping translucent robed silhouettes offset from one another as if speaking as one, a single pair of violet eyes shared between them, swirling dark mist below where legs should be, hoods empty, arms raised in unison",
+    "notes": "Jefe. Conoce tu nombre: el efecto es de varias figuras mal alineadas, no de una sola fantasmal.",
+    "states": {
+      "attack": "all overlapping silhouettes snapping into perfect alignment for an instant as a wave of violet force erupts forward, eyes blazing white",
+      "hurt": "the silhouettes tearing apart out of sync, scattering sideways, the shared eyes flickering",
+      "down": "the layered figures collapsing inward into a single thinning shape sinking into the floor mist"
+    }
+  },
+  "sanctum_keeper": {
+    "planet": "dromund_kaas",
+    "subject": "towering construct of carved black stone bound with arcing chains of lightning, glowing white-violet rune-seams running between the stone plates, a featureless blank face, monolithic shoulders, enormous arms hanging at the sides, standing as an immovable guardian",
+    "notes": "Jefe. Alzado por los constructores del Templo: piedra y relámpago atado, sin una sola parte orgánica.",
+    "states": {
+      "attack": "both arms brought together overhead discharging a column of chained lightning downward, every rune-seam blazing white",
+      "hurt": "stone plates blown loose from the torso and hanging on the lightning chains, runes flickering erratically",
+      "down": "broken apart at the waist and kneeling in its own rubble, lightning chains gone slack and dark"
+    }
+  },
+  "undercroft_horror": {
+    "planet": "dromund_kaas",
+    "subject": "bloated sithspawn abomination, fused mismatched limbs of different creatures grafted at wrong angles, tumorous corrupted flesh in grey and sickly violet, many weeping eyes scattered across the mass, half-submerged in black water, dragging itself forward",
+    "notes": "Jefe. Un experimento fundido con las filtraciones del Templo: la simetría está rota a propósito en todas partes.",
+    "states": {
+      "attack": "surging up out of the black water with every mismatched limb thrown forward, the mass of eyes wide, a lamprey mouth opening in the torso",
+      "hurt": "recoiling with several limbs torn loose and trailing, eyes squeezed shut across the body, mass sagging",
+      "down": "sunk back into the black water with only the slack upper mass and dimming eyes above the surface"
+    }
+  },
+
+  "street_thug": {
+    "planet": "nar_shaddaa",
+    "subject": "lowlife street thug, mismatched scavenged armour pieces strapped over street clothes, a stolen blaster pistol held sideways, cheap facial tattoos, neon-lit grime on the skin, sneering, cocky loose stance",
+    "notes": "Escoria de baja estofa: el bláster mal agarrado delata que no sabe usarlo."
+  },
+  "rakghoul": {
+    "planet": "nar_shaddaa",
+    "subject": "mutated rakghoul, hunched grey diseased flesh stretched over a warped humanoid frame, long hooked claws, a fanged lamprey maw split wide, weeping plague-sores across the shoulders and back, lunging forward on all fours",
+    "notes": "Su mordedura porta la plaga: las llagas deben ser lo primero que se lee."
+  },
+  "exchange_enforcer": {
+    "planet": "nar_shaddaa",
+    "subject": "heavy crime-syndicate enforcer, plated black armour with Exchange sigils on the shoulder, a heavy repeating blaster held across the body, a stun baton on the belt, broad menacing build, helmet under the arm showing a flat unbothered face",
+    "notes": "Leal a los créditos: profesionalidad sin convicción."
+  },
+  "exchange_accountant": {
+    "planet": "nar_shaddaa",
+    "subject": "Exchange accountant turned fugitive, a fine but rumpled suit slept in for a week, soft uncallused hands, thinning hair stuck to a sweating forehead, an expensive holdout blaster held far too tightly in both shaking hands, a bulging credit case clutched under one arm, panic in the eyes",
+    "notes": "Manos blandas y gatillo nervioso: el arma cara y el agarre incorrecto cuentan el chiste."
+  },
+  "bounty_hunter": {
+    "planet": "nar_shaddaa",
+    "subject": "professional bounty hunter, sleek armoured flight-suit with a full helmet and rangefinder, a carbine held at low ready, grenades clipped across the chest, a jetpack with scorched vents, balanced and unhurried ready stance",
+    "notes": "Bien equipado e ingenioso: todo el equipo está cuidado, al contrario que el matón callejero."
+  },
+  "exchange_boss": {
+    "planet": "nar_shaddaa",
+    "subject": "underworld crime lord, an opulent armoured coat of dark silk over a plated cuirass, chrome cybernetic implants at the temple and along one jaw, a heavy custom blaster resting across one forearm, rings and chains, smug absolute confidence, feet planted wide",
+    "notes": "Jefe. Rodeado de tecnología y guardaespaldas: el lujo y el blindaje deben ir mezclados.",
+    "states": {
+      "attack": "the heavy custom blaster brought up two-handed and fired, muzzle flash lighting the coat and the cybernetics, coat flaring",
+      "hurt": "spun a quarter turn by the impact, blaster arm flung wide, implants sparking at the jaw",
+      "down": "fallen back against his own armoured chair, blaster on the floor, one hand pressed to the cuirass, disbelief on his face"
+    }
+  },
+
+  "boma_beast": {
+    "planet": "onderon",
+    "subject": "large quadruped predator, armoured grey-brown hide in overlapping natural plates, a broad horned head lowered for the charge, massive shoulders, short powerful legs, small furious eyes, mid-charge with dirt kicking back",
+    "notes": "Poderoso ataque de embestida: la pose base ya insinúa la carga."
+  },
+  "drexl_larva": {
+    "planet": "onderon",
+    "subject": "juvenile drexl, a speeder-sized winged reptilian grub, leathery wings half-spread and still translucent, a snapping hooked beak, a segmented pale underbelly, clawed grasping forelimbs, rearing up aggressively",
+    "notes": "Ya del tamaño de un deslizador y muy agresivo: las alas aún no sirven para volar del todo."
+  },
+  "drexl_chieftain": {
+    "planet": "onderon",
+    "subject": "beast-riding raider warlord mounted on a half-tamed drexl, the rider in bone-and-hide armour with a horned trophy helm and a long war-lance, the drexl beneath him rearing with wings spread and beak open, chains and goad-hooks biting into the beast's neck, both roaring",
+    "notes": "Jefe. Es jinete y montura en un solo sprite: la bestia está sometida por dolor, no domada — que se vean las cadenas.",
+    "states": {
+      "attack": "the drexl lunging forward with wings driven down and beak snapping while the rider's war-lance is thrust over its head",
+      "hurt": "the drexl twisting sideways in pain with one wing folded wrong, the rider thrown half out of the saddle and clutching the chains",
+      "down": "the drexl collapsed on its side with wings splayed, the rider pinned beneath one shoulder, lance broken in the dirt"
+    }
+  },
+
+  "mandalorian_scout": {
+    "planet": "dxun",
+    "subject": "fast Mandalorian scout, light grey-blue beskar plate over a dark flexible bodyglove, a compact jetpack, a blaster carbine held at high ready, a T-visor helmet with a scout's antenna, agile ready crouch on the balls of the feet",
+    "notes": "Rápido y letal a distancia: armadura ligera, nada que pese."
+  },
+  "cannok": {
+    "planet": "dxun",
+    "subject": "small pack predator, a stocky lizard-dog body barely knee-high, an oversized jaw that takes up half the skull, mottled green-brown jungle hide, stubby legs, snapping upward with the head low",
+    "notes": "Pequeños pero numerosos: la mandíbula desproporcionada es toda la personalidad."
+  },
+  "mandalorian_warrior": {
+    "planet": "dxun",
+    "subject": "veteran Mandalorian warrior, heavy crimson-and-iron beskar plate with battle scoring, a gauntlet flamethrower on the left forearm, a vibroblade in the right hand, a horned T-visor helm, cape of pelts at the shoulder, unflinching planted stance",
+    "notes": "Armadura pesada, armas pesadas y sin miedo. Carmesí dominante: croma verde."
+  },
+  "tomb_lord_dxun": {
+    "planet": "dxun",
+    "subject": "ancient Sith spirit, a towering spectral robed figure wreathed in shadow and green flame, a crowned skull face inside the hood, long trailing sleeves ending in skeletal hands, the lower body dissolving into a bank of dark mist, one arm raised commanding the dead",
+    "notes": "Jefe. Domina la sombra y el fuego: el fuego espectral es verde, no naranja.",
+    "states": {
+      "attack": "both skeletal arms sweeping forward as a wall of green spectral flame erupts from the robes, the crowned skull blazing",
+      "hurt": "the robed form buckling and tearing, green flame guttering down to embers, crown askew",
+      "down": "sinking into the mist from the hem upward, arms falling, only the crowned skull and two green eye-flames remaining"
+    }
+  },
+
+  "kath_hound": {
+    "planet": "dantooine",
+    "subject": "pack predator, a shaggy tan-brown quadruped with heavy shoulders and a blunt horned snout, small dark eyes, bared fangs, lean muscular legs, head low and ears flat in a hunting stalk",
+    "notes": "El depredador emblemático de Dantooine: cálido, terroso, casi familiar — lo que lo hace creíble."
+  },
+  "kinrath": {
+    "planet": "dantooine",
+    "subject": "cave spider-creature, a pale armoured carapace with a faint crystalline sheen, many jointed legs raised high, a venom-tipped segmented tail arched over the back, clustered black eyes, crystal-cave light glinting off the shell",
+    "notes": "Venenosas y territoriales: la cola sobre el lomo, lista."
+  },
+  "mercenary": {
+    "planet": "dantooine",
+    "subject": "ruins salvager mercenary, patched mismatched armour over practical fatigues, a breath-mask hanging loose at the throat, a blaster rifle held at the hip and a vibroblade at the belt, dust-caked boots, an opportunist's wary stance",
+    "notes": "Dispuesto a matar por créditos: equipo remendado, sin lealtad a nada."
+  },
+  "corrupted_guardian": {
+    "planet": "dantooine",
+    "subject": "dark-twisted Jedi guardian construct, cracked white-and-gold ceremonial plating bleeding violet corruption from every fissure, a hollow helm with a single dim glow inside, dual lightsabers held in a corrupted echo of a Jedi form, one shoulder plate fallen away, standing wrong",
+    "notes": "Jefe. Reliquia de una Orden caída: la postura debe ser una forma Jedi correcta ejecutada por algo que ya no entiende para qué servía.",
+    "states": {
+      "attack": "both sabers swept into a wide crossing strike, violet corruption spraying from the widening chest fissure, helm glow flaring",
+      "hurt": "knocked back with one shoulder plate shattering away, corruption gouting from the crack, sabers dipping",
+      "down": "kneeling with both sabers fallen and dark, the chest fissure gone black, helm light extinguished"
+    }
+  },
+
+  "czerka_merc": {
+    "planet": "telos",
+    "subject": "corporate enforcer, sleek grey Czerka combat armour with the company logo stencilled on the chest plate, a heavy blaster held at low ready, a sealed visor helmet, clean well-maintained gear, professional cold at-ease stance",
+    "notes": "Asesinos profesionales con respaldo empresarial: el equipo está impecable y estandarizado."
+  },
+  "wild_beast": {
+    "planet": "telos",
+    "subject": "mutated surface beast, matted irradiated fur in patchy clumps, asymmetric tumorous growths along one flank and shoulder, an extra malformed limb, bared uneven teeth, snarling territorial quadruped stance",
+    "notes": "Fauna mutada de una superficie en recuperación: la asimetría es la historia de Telos."
+  },
+  "salvage_droid": {
+    "planet": "telos",
+    "subject": "bulky reprogrammed construction droid, orange-and-rust industrial plating with faded hazard stripes, a hydraulic claw on one arm and a cutting torch on the other, a squat sensor head, heavy treaded feet, lumbering forward gait",
+    "notes": "Pesados e implacables: herramienta industrial reconvertida, nada de diseño militar."
+  },
+  "rakata_construct": {
+    "planet": "telos",
+    "subject": "ancient Rakata war construct, smooth obsidian-and-bronze alien geometry unlike any known design, a glowing red disintegration array set into the torso, a shimmering hexagonal energy shield flickering around the frame, no face, floating slightly above the ground",
+    "notes": "Jefe. Tecnología del Imperio Infinito: el diseño no debe parecerse a nada más del juego — sin juntas visibles, sin remaches.",
+    "states": {
+      "attack": "the torso array opening fully and firing a wide red disintegration beam, the energy shield snapping flat against the frame",
+      "hurt": "the shield shattering into hexagonal fragments, the frame knocked askew, the array stuttering dark",
+      "down": "fallen to the ground with the obsidian shell cracked open and the array gone black, shield fragments dissolving"
+    }
+  },
+
+  "storm_beast": {
+    "planet": "malachor_v",
+    "subject": "massive dark-side predator, jagged black-grey hide like broken rock, visible static crackling along the dorsal spines, glowing pale eyes, an oversized fanged jaw, heavy forelimbs braced against a wind that is not there, drawn toward the wound in the Force",
+    "notes": "Atraídos por la energía del lado oscuro: el pelaje y la piedra son indistinguibles."
+  },
+  "shadow_assassin": {
+    "planet": "malachor_v",
+    "subject": "Trayus shadow assassin, sealed matte-black robes and a featureless mask, a double-bladed red lightsaber ignited and held across the body, the lower robes dissolving into darkness, emerging out of solid shadow, coiled and silent",
+    "notes": "Emergen de las sombras sin previo aviso: el cuerpo sale de la oscuridad, no está simplemente de pie en ella."
+  },
+  "void_wraith": {
+    "planet": "malachor_v",
+    "subject": "spectral void entity, tattered black-violet wisps circling a hollow empty core where a torso should be, long skeletal grasping hands reaching forward, no face, a visible life-draining aura bending the air around it, drifting above the ground",
+    "notes": "Nacidas de la destrucción del Generador de Sombra Másica: el centro está literalmente vacío — se ve a través."
+  },
+  "sith_marauder_elite": {
+    "planet": "malachor_v",
+    "subject": "Trayus-trained elite marauder, scarred blood-red armour over black underplate with spiked pauldrons, twin red lightsabers crossed before the chest, a ritual-scarred bare face twisted with feral fury, heavy boots, aggressive forward-leaning stance",
+    "notes": "Furia desatada. Comparte lenguaje con la clase `marauder` pero más desgastado y más salvaje. Croma verde."
+  },
+  "ghost_captain": {
+    "planet": "malachor_v",
+    "subject": "spectral Republic warship captain, a translucent blue-grey dress uniform and peaked cap, a saber-scar across one side of the face, one hand resting on a spectral sidearm, the legs fading below the knee, weary authority, trapped between life and death",
+    "notes": "Jefe. Sigue al mando de una nave que ya no existe: la postura es de puente de mando, no de combate.",
+    "states": {
+      "attack": "spectral sidearm raised and fired, the whole form flaring bright cold blue with the recoil, cap brim shadowing blazing eyes",
+      "hurt": "the form tearing into horizontal bands of interference, cap knocked loose and dissolving before it lands",
+      "down": "fading from the feet upward while still standing at attention, one hand raised in a final salute"
+    }
+  },
+  "darth_sion": {
+    "planet": "malachor_v",
+    "subject": "broken undying Sith lord, a body that is a mosaic of cracked decaying flesh and bone held together only by rage, glowing red fissures burning between every fragment, one milk-white blind eye, a single heavy red lightsaber held loose in a fist, shoulders hunched, hateful glare",
+    "notes": "Jefe. El Señor del Dolor: cada trozo del cuerpo está separado del siguiente por una grieta encendida.",
+    "states": {
+      "attack": "a brutal one-handed downward saber smash with the whole body thrown into it, fissures blazing white-hot, fragments visibly grinding apart",
+      "hurt": "the body blown partly apart at the shoulder and ribs, fragments hanging suspended in the air, already pulling back together",
+      "down": "collapsed into a loose heap of separated fragments with the fissure light dimming, the blind eye still open and aimed at the viewer"
+    }
+  },
+  "darth_nihilus": {
+    "planet": "malachor_v",
+    "subject": "void-wreathed Sith lord, a cracked white-and-red mask floating at head height with nothing visible behind it, flowing black shroud robes that dissolve into hungry swirling darkness where the body should be, long empty sleeves, a devouring presence bending the light inward",
+    "notes": "Jefe. Más vacío que hombre: bajo la túnica no hay cuerpo, y debe notarse. La máscara es el único punto de contraste.",
+    "states": {
+      "attack": "the shroud thrown wide as the mask tips back and a wave of devouring void erupts outward, the surrounding light visibly draining toward it",
+      "hurt": "the mask cracking further along an existing fissure, the shroud collapsing inward as if losing pressure",
+      "down": "the mask falling forward through the empty robes as the shroud drops to the ground and evaporates, mask landing face-up"
+    }
+  },
+  "darth_traya": {
+    "planet": "malachor_v",
+    "subject": "the final form of Kreia, an old woman in layered grey-and-white robes with a deep cowl, milky blind eyes, one hand ending in a severed wrist, three lightsabers in red, violet and orange orbiting her slowly in the air by the Force alone with no hands on them, serene absolute authority",
+    "notes": "Jefe final. La Señora de la Traición: los tres sables orbitan solos — jamás los empuña. La serenidad es la amenaza.",
+    "states": {
+      "attack": "the three orbiting sabers snapping outward in three directions at once, robes lifting, blind eyes wide and white, arms spread",
+      "hurt": "two sabers spinning out of formation and wavering, the cowl falling back, one shoulder dropping",
+      "down": "seated on the ground with the three sabers extinguished and fallen around her in a circle, head bowed, robes settled"
+    }
+  }
+}

@@ -5,6 +5,12 @@ description: Keep the SWROTT art/audio catalogs in docs/assets/ in sync with the
 
 # Asset Catalog sync
 
+> **Complementaria de `/content-prompts`.** Esa skill mantiene `docs/prompts/` (la biblioteca de
+> prompts completos, uno por entidad) y se dispara al **crear** contenido. Ésta mantiene
+> `docs/assets/` (el tablero de estado + pipeline) y se dispara al **producir e integrar** un
+> asset. No dupliques trabajo: si el encargo es "hay contenido nuevo, necesito su prompt", esa es
+> `/content-prompts`.
+
 You maintain the **living catalogs** in `docs/assets/` so they always reflect the game data and
 what art/audio actually exists on disk. The catalogs hold copy-paste **pixel-art** prompts
 (Leonardo) / Suno prompts, organized by **planet → type → state**.

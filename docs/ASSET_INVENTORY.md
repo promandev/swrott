@@ -1,5 +1,11 @@
 # SWROTT — Inventario de Assets para externalizar (Leonardo.ai / Suno.ai)
 
+> 🧭 **Los prompts completos y listos para pegar viven en [`docs/prompts/`](prompts/)**, un
+> fichero por entidad: [clases](prompts/player-classes.md) · [compañeros](prompts/companions.md) ·
+> [NPCs](prompts/npcs.md) · [enemigos](prompts/enemies.md) · [música](prompts/music.md) ·
+> [mundos](prompts/worlds.md). Se generan desde el código con
+> `node scripts/build-content-prompts.mjs` y los mantiene la skill **`/content-prompts`**.
+
 > 📂 **Los prompts detallados y listos para copiar viven ahora en [`docs/assets/`](assets/)**
 > (catálogos vivos por categoría, estilo **pixel art**, organizados por planeta → tipo → estado):
 > [characters](assets/characters.md) · [icons-talents](assets/icons-talents.md) ·

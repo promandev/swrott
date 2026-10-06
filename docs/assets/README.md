@@ -1,5 +1,11 @@
 # SWROTT — Asset Catalog (living docs)
 
+> 🧭 **¿Buscas el prompt completo y listo para pegar?** Está en
+> [`docs/prompts/`](../prompts/) — un fichero por entidad (clases, compañeros, NPCs, enemigos,
+> música, mundos), con el sufijo de estilo ya incorporado, mantenido por la skill
+> `/content-prompts`. **Esta carpeta** es el *tablero de estado*: qué arte existe, qué falta y
+> cómo se convierte e integra.
+
 This folder is the **single source of truth for art & audio to externalize** (Leonardo.ai
 for image, Suno.ai for music). Every catalog here is **kept in sync with the codebase by the
 `/asset-catalog` skill** — when you generate a new asset, run the skill and it updates the

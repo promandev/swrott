@@ -1,0 +1,136 @@
+{
+  "korriban": {
+    "fantasy": "Estás en el mundo natal de los Sith y todo aquí ya ha decidido que eres reemplazable. Academia, tumbas y un valle lleno de los muertos que lo hicieron mejor que tú.",
+    "light": "Dos soles rojos, altos y sin piedad. Sombras cortas y duras de día; braseros carmesíes y luz de holocrón en interiores. Polvo en suspensión en cada haz de luz.",
+    "architecture": "Arenisca monumental y obsidiana pulida. Todo está tallado con glifos, todo es demasiado grande para una escala humana, todo lleva milenios aquí.",
+    "motif": "La escala aplastante: cualquier puerta, estatua o sarcófago debe ser cinco veces más alto que una persona.",
+    "scenes": {
+      "korriban_exterior": "grand sandstone Sith Academy entrance under twin blazing red suns, colossal carved pillars flanking a stair of a hundred steps, statues of hooded Sith lords eroded by millennia, a dry desert ridge beyond, dust hanging in the shafts of hard red light",
+      "korriban_interior": "dark Sith Academy corridor of polished obsidian columns, alcoves lined with glowing red holocrons, iron braziers burning crimson along the walls, glyph-carved lintels, deep shadow between every pool of firelight",
+      "korriban_valley": "the Valley of the Dark Lords, two rows of monumental tomb facades receding toward a crimson horizon, colossal seated statues flanking the processional road, drifting dust and a haze of visible dark-side energy above the valley floor",
+      "korriban_tomb": "interior of an ancient Sith tomb, walls carved floor to ceiling with glyph reliefs, broken stone sarcophagi spilling dust, faint red ghost-light with no visible source, pressure plates and a collapsed ceiling section, air thick and still",
+      "korriban_arena": "a blood-stained sand combat arena ringed by tiered stone benches, tattered Academy banners hanging from the upper rail, iron weapon racks at the edge, harsh overhead sun and a hard-edged shadow across half the sand",
+      "korriban_mines": "dark slave-mine tunnels braced with crude timber supports, a rough-hewn shaft descending into blackness, dripping water pooling in the rails, insectoid nests clustered in the ceiling corners, dim guttering lamplight",
+      "dungeon_ragnos_entry": "the sealed threshold of the Tomb of Marka Ragnos, an enormous door of black stone carved with a single gold Sith glyph, flanking braziers long cold, a stair of broken flagstones descending into the dark, gold-and-green light bleeding faintly through the door seam",
+      "dungeon_ragnos_halls": "the Halls of the Dead inside Ragnos' tomb, rank upon rank of standing sarcophagi in wall niches receding into darkness, spectral green-gold light pooling on the floor between them, dust suspended and unmoving in the still air",
+      "dungeon_ragnos_puzzle": "an ancient Sith trial chamber, a circular floor inlaid with rotating stone glyph rings, four pedestals holding unlit crystal sconces at the cardinal points, cold green light from a slot high in the ceiling, everything waiting to be solved",
+      "dungeon_ragnos_guardian": "a vast echoing guardian chamber of bare black stone, a colossal empty throne of carved obsidian at the far end, chains and shattered weapons scattered across the floor, a single shaft of red light falling on the centre of the floor",
+      "dungeon_ragnos_sanctum": "the innermost sanctum of Ragnos' tomb, a raised sarcophagus of gold-veined black stone on a stepped dais, gold-and-green spectral energy rising from the seams in slow ribbons, glyph-walls blazing with reflected light",
+      "dungeon_ragnos_vault": "a Sith treasure vault, toppled chests of ancient coin and ritual blades, racked holocrons glowing faint red on stone shelves, gold spilling across the floor, an oppressive sense of being counted by something unseen"
+    }
+  },
+  "dromund_kaas": {
+    "fantasy": "La capital del Imperio bajo una tormenta que no acaba nunca. Aquí el poder Sith no es antiguo ni místico: es burocrático, armado y siempre mojado.",
+    "light": "Perpetuamente gris y azulado, sin sol. Relámpagos violetas que recortan siluetas cada pocos segundos. Interiores fríos de iluminación imperial blanca y dura.",
+    "architecture": "Durasteel negro y monolitos imperiales de líneas rectas y verticales, en contraste con un templo Sith antiquísimo que la jungla se está tragando.",
+    "motif": "La lluvia. Corre por cada superficie, brilla en cada plano, y todo lo que no está mojado está bajo tierra.",
+    "scenes": {
+      "dromund_kaas_spaceport": "rain-soaked durasteel landing platforms over a black city, Imperial shuttles parked under floodlights, ozone glow around the repulsor pads, steam rising where the rain hits hot plating, a stormy sky torn by distant violet lightning",
+      "dromund_kaas_citadel": "the interior of the black Imperial citadel, an austere hall of sheer vertical durasteel and tall narrow windows, the spires of Kaas City visible beyond through the rain, lightning throwing hard moving shadows across the polished floor",
+      "dromund_kaas_market": "a covered Kaas City bazaar in the citadel's shadow, lantern-lit stalls under dripping awnings, ration queues along one wall, wet flagstones reflecting the lantern light, soldiers watching from an upper walkway",
+      "dromund_kaas_jungle": "a vine-choked storm jungle, enormous dripping fronds and buttress roots, violet lightning flashing through the canopy, the black silhouette of the Dark Temple looming on a ridge in the far distance, standing water everywhere",
+      "dromund_kaas_temple": "an ancient Sith ziggurat half-swallowed by jungle, its stepped black stone faces cracked and root-bound, a yawning entrance at the base, rain sheeting off the upper tiers, an oppressive whispering atmosphere",
+      "dromund_kaas_sanctum": "a cold dry temple sanctum far below the storm, three burning binding wards set in a triangle on a black stone floor, carved restraint-glyphs covering the walls, absolute silence implied, the only light from the wards themselves",
+      "dromund_kaas_undercroft": "the drowned foundations of an older city, flooded halls of black water reflecting a low ceiling, flickering maintenance lights on failing conduits, debris and broken columns breaking the surface"
+    }
+  },
+  "ziost": {
+    "fantasy": "La primera capital Sith, congelada y abandonada hace milenios. No hay enemigos suficientes aquí: el peligro es el frío y lo que sigue despierto bajo el hielo.",
+    "light": "Luz plana de día nublado sobre nieve, sin sombras definidas. Auroras cian de noche. Todo tiene un brillo helado y ninguna fuente de calor.",
+    "architecture": "Obsidiana Sith idéntica a la de Korriban pero vencida por el peso del hielo: torres inclinadas, arcos partidos, todo bajo una capa de escarcha.",
+    "motif": "La quietud absoluta. Nada se mueve salvo la nieve arrastrada por el viento.",
+    "scenes": {
+      "ziost_spaceport": "a wind-scoured landing platform clinging to a frozen spire, ice-crusted mooring clamps and a half-buried shuttle, a cyan aurora burning over a dead ice-bound Sith capital below, blowing snow crossing the frame",
+      "ziost_citadel": "New Adasta, ice-drowned obsidian Sith towers leaning at wrong angles under the weight of frozen centuries, streets filled to the first-floor windows with packed snow, an eerie total stillness, pale blue light",
+      "ziost_wastes": "a white frozen plain of half-buried tombs and standing stones, a line of monoliths receding into a whiteout, a distant haunting cyan glow on the horizon, snow blowing in long low streamers",
+      "ziost_tomb": "a descending stair of polished black glass cut into the ice, leading down into the Singing Tomb, a faint resonant glow rising from below, frost patterns radiating outward across the walls as if from a sound"
+    }
+  },
+  "nar_shaddaa": {
+    "fantasy": "La Luna de los Contrabandistas: mil niveles de ciudad vertical donde todo se compra, incluida la gente. El único planeta donde nadie teme a los Sith por ser Sith.",
+    "light": "Neón magenta y cian como única fuente, reflejado en charcos y metal mojado. Nunca hay cielo, solo anuncios. Contraluces constantes.",
+    "architecture": "Acumulación: tubería, andamio y cartelería apiladas sobre estructuras que nadie recuerda haber construido. Nada se demuele, todo se recubre.",
+    "motif": "La vertical. Siempre hay ciudad por encima y abismo por debajo, y el encuadre debe enseñar ambas.",
+    "scenes": {
+      "nar_shaddaa_promenade": "a neon-drenched rain-slick promenade, towering holographic signage in a dozen alphabets, an endless vertical cityscape falling away below the rail and rising out of frame above, smog glowing in the sign-light",
+      "nar_shaddaa_cantina": "a smoky pazaak den, a curved neon-edged bar, low gambling tables ringed by mismatched stools, hazy lounge light in magenta and amber, booths receding into darkness at the back",
+      "nar_shaddaa_market": "a crowded shadow-market alley, illegal goods hung from overhead racks and stacked in open crates, tarps strung between buildings, harsh work-lights and deep shadows, barely room to pass",
+      "nar_shaddaa_lower": "a decaying lower-city slum, burst pipes venting steam, gang graffiti layered on every surface, makeshift shelters against a structural wall, grim half-light filtering down from the neon levels far above",
+      "nar_shaddaa_exchange": "a fortified Exchange headquarters interior, an opulent crime-lord office of dark polished stone and gold, armoured blast doors standing open, security scanners framing the entrance, a wall of surveillance screens"
+    }
+  },
+  "onderon": {
+    "fantasy": "Una ciudad amurallada que lleva siglos resistiendo a la jungla que la rodea, gobernada por una corte que se apuñala con protocolo. Aquí eres un extranjero peligroso que todos quieren usar.",
+    "light": "Sol alto y cálido, luz dorada real. Interiores de palacio iluminados por ventanales altos. La subciudad, en cambio, es verde y sin sol.",
+    "architecture": "Piedra clara y oro, arcos altos y balcones abiertos a la jungla. Grandeza real genuina, no fortaleza.",
+    "motif": "El muro. Siempre se intuye la muralla o la jungla al otro lado: la ciudad es una isla.",
+    "scenes": {
+      "onderon_city": "the walled royal city of Iziz, gilded corridors and high open balconies overlooking tiled rooftops, beast-riders circling on winged mounts in the sky beyond the wall, warm golden daylight, banners of the Crown",
+      "onderon_palace": "an opulent Onderon royal palace throne hall, a long approach between paired columns, tall stained windows throwing coloured light across a polished floor, the throne raised on a stepped dais, house banners along both walls",
+      "onderon_undercity": "broken tunnels beneath the city walls, roots forcing through cracked masonry, standing water and dripping dark, a collapsed section opening onto jungle gloom, the tracks of prowling beasts in the mud"
+    }
+  },
+  "dxun": {
+    "fantasy": "La luna selvática de Onderon, donde los mandalorianos se reconstruyen y todo lo que vive intenta comerte. Aquí no hay política: hay honor y depredadores.",
+    "light": "Luz verde filtrada por un dosel espeso, casi crepuscular a mediodía. Hogueras naranjas en el campamento. Niebla permanente entre los troncos.",
+    "architecture": "Nada permanente salvo una tumba Sith que la selva no ha conseguido borrar. El resto son tiendas, empalizadas y cosas que se pueden levantar en un día.",
+    "motif": "La niebla entre capas de vegetación: la profundidad se cuenta con tres o cuatro planos de verde cada vez más claro.",
+    "scenes": {
+      "dxun_jungle": "a dense demon-moon jungle canopy, colossal buttressed trunks receding into thick mist in four distinct depth layers, ancient overgrown ruins half-visible between them, shafts of green light, predatory shadows implied",
+      "dxun_mando_camp": "a Mandalorian war-camp clearing, hide tents and weapon racks arranged around a central firepit, clan banner standards driven into the mud, a forge under an open lean-to, cookfires glowing orange against the mist",
+      "dxun_sith_tomb": "an overgrown ancient Sith tomb entrance swallowed by jungle, black stone lintels prised apart by roots, glowing green glyphs still legible in the gloom, a palpable pressure of dark-side energy at the threshold"
+    }
+  },
+  "dantooine": {
+    "fantasy": "Pradera abierta y las ruinas de un enclave Jedi que nadie ha reclamado. Es lo más bonito que ve el jugador en todo el juego, y por eso duele.",
+    "light": "Luz de tarde larga y dorada, sombras alargadas. En la cueva de cristal, luz azul kyber fría que viene de las propias paredes.",
+    "architecture": "Piedra blanca caída y columnas vencidas sobre hierba alta. La naturaleza no ha destruido las ruinas: ha acabado de asimilarlas.",
+    "motif": "El cielo. Es el único mundo con horizonte abierto y mucho aire por encima.",
+    "scenes": {
+      "dantooine_enclave": "shattered Jedi enclave ruins reclaimed by grassland, fallen white columns lying in long grass, a broken dome open to the sky, golden late-afternoon light raking across the stone, nothing threatening in sight",
+      "dantooine_plains": "vast windswept crystal plains, scattered pale crystal formations breaking through golden grass, distant herds moving on the horizon, an enormous sky with high thin cloud, long shadows",
+      "dantooine_crystal_cave": "a sacred crystal cave, lightsaber crystals growing in clusters from the walls and ceiling, cool blue-white radiance coming from the stone itself with no other light source, a still black pool reflecting the glow",
+      "dantooine_sublevel": "a secret enclave sublevel, dusty archive shelving and sealed meditation vault doors, a collapsed stair at one end, dim red emergency lighting, undisturbed dust across the floor"
+    }
+  },
+  "telos": {
+    "fantasy": "Una estación orbital limpia sobre un planeta que fue bombardeado hasta la roca y que ahora intentan resucitar. Corporativo, frío y con la esperanza cotizando a la baja.",
+    "light": "Luz de estación blanca y uniforme arriba; abajo, un sol pálido sobre una superficie que aún no sabe si va a vivir.",
+    "architecture": "Modular, limpio, atornillado: paneles, pasarelas y ventanales enormes en la estación; prefabricados y chatarra en la superficie.",
+    "motif": "El contraste entre lo pulcro y lo improvisado. Arriba todo encaja; abajo todo está atado con alambre.",
+    "scenes": {
+      "telos_citadel": "the interior of a massive orbital Citadel Station, a clean restored corridor of white panelling and handrails, enormous observation viewports looking down on the planet below, soft uniform lighting, everything maintained",
+      "telos_surface": "a recovering bombarded surface, fragile new growth pushing up between slabs of shattered ruin, prefab shelters and salvage stacked under a pale restored sky, a restoration marker post, thin cold light",
+      "telos_rakata_lab": "an ancient Rakata laboratory, smooth obsidian-and-bronze alien technology with no visible seams, geometry that meets at angles that should not close, a deep red glow from an unseen source below the floor"
+    }
+  },
+  "malachor_v": {
+    "fantasy": "Un planeta partido por un arma y abandonado con la herida abierta. La Fuerza misma está rota aquí. Es el acto final y debe sentirse como el fondo de algo.",
+    "light": "Sin sol y sin color. Una luz gris que no proyecta sombras limpias, y vetas rojas que laten desde las grietas del suelo.",
+    "architecture": "Roca negra fracturada en ángulos imposibles, con restos de naves y de academia suspendidos en gravedad rota.",
+    "motif": "La gravedad equivocada: siempre hay algo flotando o cayendo hacia el lado que no toca.",
+    "scenes": {
+      "malachor_surface": "a shattered planet surface, slabs of black rock floating motionless above the ground in broken gravity, red veins pulsing in the fissures below, a screaming colourless dark-side sky, debris suspended mid-fall",
+      "malachor_depths": "a descent toward the Trayus Academy, jagged black rock walls narrowing overhead, red veins running through the stone, crushing dark-side pressure implied by the compressed perspective, a faint light far below",
+      "malachor_ghost_ship": "a derelict Republic warship held in gravitational limbo, a corridor torn open to the void with wreckage frozen in mid-drift, spectral cold blue light, hull plating peeled outward and hanging",
+      "malachor_trayus": "the Trayus Academy core, a hall of black mirror-polished stone reflecting nothing correctly, swirling dark-side energy coiling between the columns, a central ring of seats facing inward, the heart of the Triumvirate",
+      "dungeon_cathedral_entry": "the threshold of the Cathedral of Hunger, an immense doorway of fused black stone shaped like an open mouth, the ground before it stripped bare and grey, the light visibly bending inward toward the opening",
+      "dungeon_cathedral_nave": "the nave of a cathedral built to devour, a colossal vaulted hall of black rib-like buttresses, rows of empty stone stalls facing an unseen altar, a cold grey light with no source, everything drawn toward the far end",
+      "dungeon_cathedral_puzzle": "a ritual chamber inside the Cathedral of Hunger, a circular floor of interlocking black plates with a hollow at the centre, three carved basins holding still dark liquid, faint red script crawling across the walls",
+      "dungeon_cathedral_altar": "the Altar of the Void, a raised block of seamless black stone with a shallow depression worn into its surface, the surrounding floor cracked outward in a radial pattern, absolute lightlessness above the altar",
+      "dungeon_cathedral_void": "a chamber that is mostly absence, a narrow stone walkway crossing a space where there is no floor, wall or ceiling, only a devouring grey nothing, fragments of the cathedral drifting away into it",
+      "dungeon_cathedral_heart": "the heart of the Cathedral of Hunger, a vast spherical cavity of black stone with a slow pulse of red light at its centre, ribbed walls like the inside of something alive, the architecture breathing"
+    }
+  },
+  "ship": {
+    "fantasy": "Tu nave: el único sitio del juego que es tuyo. Estrecho, funcional y poco a poco más habitado según avanza la campaña.",
+    "light": "Ámbar de instrumentos y luz de trabajo fría, con el rojo Sith solo en los detalles. Nunca luz natural.",
+    "architecture": "Interior de nave pequeña: mamparos, conductos vistos, asideros y superficies que alguien usa a diario.",
+    "motif": "La escala humana. Después de nueve mundos monumentales, aquí todo está al alcance de la mano.",
+    "scenes": {
+      "ship_bridge": "the cramped bridge of a small starship, two forward crew seats before a curved instrument console glowing amber, a forward viewport onto starfield, overhead conduit runs and grab handles, worn seat padding",
+      "ship_quarters": "the crew quarters of a small starship, two bunks recessed into the bulkhead, a fold-down table with personal effects left out, a locker standing open, low warm light, lived-in and untidy",
+      "ship_hold": "a starship cargo hold, crates strapped down under cargo netting along both bulkheads, a deck hatch and a loading ramp seam at one end, exposed structural ribs, cold blue work-lighting"
+    }
+  }
+}

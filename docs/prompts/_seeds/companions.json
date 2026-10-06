@@ -1,0 +1,47 @@
+{
+  "kaelis": {
+    "subject": "honorable young Sith duelist, mid-twenties, athletic and upright, dark red and black light armor with a clean unadorned breastplate and a single shoulder guard, short dark hair, a duelist's trimmed beard, one red lightsaber held in a formal high guard, proud level bearing, a leather sword-belt with a house token",
+    "notes": "Es el espejo honorable del jugador: postura de esgrima de academia, nada de saña. Ropa cuidada aunque gastada.",
+    "states": {
+      "attack": "clean committed forward lunge with the saber extended at full reach, front foot planted, expression focused rather than cruel",
+      "hurt": "guard broken high, saber arm forced wide, one step back, teeth gritted",
+      "down": "on one knee with the saber point-down in the dirt, one hand gripping the hilt, head up and still defiant"
+    }
+  },
+  "v3x9": {
+    "subject": "ancient battered assassin droid, humanoid chassis, scratched matte-grey plating over exposed cabling and hydraulics, mismatched replacement panels riveted on, a single glowing red optic in a narrow skull-like head, retractable vibroblades along both forearms, scored carbon burns across the chest plate, hunched efficient posture",
+    "notes": "La historia está en los remiendos: cada panel de repuesto es de un color de gris distinto. Un solo punto rojo de luz.",
+    "states": {
+      "attack": "both forearm vibroblades fully extended and driven forward in a scissoring strike, servo-joints tensed, optic flaring bright red",
+      "hurt": "chassis jerked backward by the impact, sparks bursting from a shoulder joint, optic flickering",
+      "down": "collapsed backward on the ground, one arm torn loose and lying apart, optic dimmed to a faint ember"
+    }
+  },
+  "serana": {
+    "subject": "former Jedi padawan turning to the dark side, early twenties, light leather Jedi robes torn and re-stitched with Sith straps and black panels, auburn hair with a severed padawan braid, freckled face caught between grief and anger, holding a lightsaber whose blade fades from blue at the emitter to violet at the tip, one hand half-open as if about to let go",
+    "notes": "La transición está en el sable y en las costuras: mitad Jedi, mitad Sith. Expresión conflictuada, nunca cruel.",
+    "states": {
+      "attack": "two-handed descending saber cut, blue-to-violet blade bright across the frame, face contorted with an anger she did not choose",
+      "hurt": "recoiling with the free hand at her ribs, braid whipping across the face, eyes wide",
+      "down": "kneeling with the saber deactivated on the ground beside her, both hands on her thighs, head hanging"
+    }
+  },
+  "torvak": {
+    "subject": "battle-hardened Mandalorian warrior, heavy build, dented beskar plate in earth-and-iron tones with one crimson-painted pauldron, T-visor helmet carried under one arm revealing a scarred jaw and grey-streaked beard, heavy vibrosword slung across the back, gauntlet flamethrower nozzle on the left forearm, weathered flight suit and a trophy-strung belt",
+    "notes": "Casco en el brazo, no en la cabeza: es el compañero al que le ves la cara. Abolladuras reales, no decorativas.",
+    "states": {
+      "attack": "helmet on and visor forward, heavy vibrosword swung in a two-handed horizontal arc, gauntlet flamethrower spitting a short burst of orange flame",
+      "hurt": "knocked half-around by the hit, one arm flung out, helmet dropped from under the arm",
+      "down": "seated hard against the ground, one leg folded under, vibrosword driven upright into the earth beside him, hand still on the grip"
+    }
+  },
+  "echo_shade": {
+    "subject": "translucent Sith force-ghost, semi-transparent cyan-violet spectral robes whose hem dissolves into drifting mist instead of feet, hollow glowing eyes in a serene ancient face, faint scrollwork of old Sith glyphs visible through the body, one hand resting on a small floating shard artifact that orbits slowly at chest height, calm and weightless",
+    "notes": "Translúcido de verdad: el borde del fondo debe verse a través de la túnica. Sin sombra proyectada. Que flote — nunca toca el suelo.",
+    "states": {
+      "attack": "both arms sweeping outward, the shard artifact blazing white-violet, spectral robes streaming forward into a wave of dark energy, face gone fierce",
+      "hurt": "form destabilising into horizontal glitch-bands of light, the shard flickering, silhouette briefly doubled",
+      "down": "form dissipating from the hem upward into scattering motes, only the head, shoulders and the falling shard still coherent"
+    }
+  }
+}

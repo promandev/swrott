@@ -1,0 +1,86 @@
+{
+  "_comment": "Estilo global. Cambia aquí y se propaga a los 279 prompts al correr `npm run prompts`.",
+  "negative": "photo, photorealistic, 3d render, octane, blurry, soft focus, anti-aliased edges, jpeg artifacts, smooth gradients, watermark, signature, text, caption, UI, frame, border, drop shadow, cast shadow on ground, busy background, multiple characters, cropped, out of frame, extra limbs, extra fingers, deformed hands, lens flare, bokeh",
+
+  "chroma": {
+    "magenta": "#FF00FF magenta",
+    "green": "#00FF66 green"
+  },
+
+  "sprite": {
+    "suffix": ", full-body pixel-art game sprite, front view, full figure centered with small headroom and floor room, crisp clean 1px dark outline, limited cohesive palette (24-32 colours), flat cel shading with a single top-left light source, minimal dithering only on large surfaces, sharp readable pixel clusters, strong silhouette, no blur, KOTOR-era Star Wars Sith dark fantasy, solid flat {BG} background",
+    "settings": "1024×1024 · `--ar 1:1` · Leonardo Phoenix 1.0 o AlbedoBase XL · Preset \"Pixel Art\" (o None/RAW) · Prompt Magic **OFF** · Guidance 6–8 · contraste medio-alto · genera 4 y quédate con la silueta más limpia",
+    "states": {
+      "idle": "postura de combate neutra, arma baja, la pose que \"respira\"",
+      "attack": "golpe **en el sitio** — el lunge lo anima el código; arma alzada o extendida, peso adelantado",
+      "hurt": "retroceso de dolor, cabeza atrás, un paso desequilibrado",
+      "down": "derrotado, de rodillas o desplomándose, arma caída"
+    }
+  },
+
+  "scene": {
+    "suffix": ", pixel-art environment backdrop, wide establishing shot, no characters, painterly pixel scene with parallax-friendly foreground / midground / background layers, atmospheric depth and haze, KOTOR-era Star Wars Sith dark fantasy mood lighting",
+    "settings": "1536×1024 (`--ar 3:2`) o 1920×1080 (`--ar 16:9`) · Prompt Magic **OFF** · Guidance 6–8 · sin personajes ni HUD"
+  },
+
+  "music": {
+    "exclude": "pop, rap, edm, dubstep, trap, lo-fi hip hop, happy, cheerful, upbeat vocals, spoken word"
+  },
+
+  "planets": {
+    "korriban": {
+      "name": "Korriban",
+      "levels": "1–10",
+      "palette": "arenisca roja, obsidiana, oro deslustrado, brasa carmesí; dos soles duros y polvo en suspensión"
+    },
+    "dromund_kaas": {
+      "name": "Dromund Kaas",
+      "levels": "8–12",
+      "palette": "negro imperial, gris durasteel mojado, verde jungla profundo, violeta de relámpago; todo bajo lluvia"
+    },
+    "ziost": {
+      "name": "Ziost",
+      "levels": "12–16",
+      "palette": "blanco hielo, obsidiana bajo escarcha, cian de aurora, azul muerto; luz plana y sin sombras"
+    },
+    "nar_shaddaa": {
+      "name": "Nar Shaddaa",
+      "levels": "11–18",
+      "palette": "neón magenta y cian sobre óxido y mugre, charcos que reflejan anuncios, humo ámbar"
+    },
+    "onderon": {
+      "name": "Onderon",
+      "levels": "15–22",
+      "palette": "verde selva y oro real, piedra clara, púrpura de la corte; luz cálida y alta"
+    },
+    "dxun": {
+      "name": "Dxun",
+      "levels": "18–28",
+      "palette": "verde-negro de dosel, beskar hierro y carmesí de clan, naranja de hoguera en la niebla"
+    },
+    "dantooine": {
+      "name": "Dantooine",
+      "levels": "20–30",
+      "palette": "oro de pradera, piedra blanca caída, azul kyber; luz de tarde larga y melancólica"
+    },
+    "telos": {
+      "name": "Telos IV",
+      "levels": "28–38",
+      "palette": "gris estación y azul limpio, naranja corporativo Czerka, verde frágil de superficie restaurada"
+    },
+    "malachor_v": {
+      "name": "Malachor V",
+      "prefix": "malachor",
+      "levels": "35–50",
+      "palette": "negro roto y gris ceniza con vetas rojas, cielo sin color; la luz parece caer hacia dentro"
+    },
+    "ship": {
+      "name": "Tu nave",
+      "palette": "gris cabina, ámbar de instrumentos, rojo Sith en los detalles; interior estrecho y habitado"
+    },
+    "galaxy": {
+      "name": "Galaxia / varios mundos",
+      "palette": "según el planeta donde aparezca"
+    }
+  }
+}

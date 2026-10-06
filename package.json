@@ -10,7 +10,10 @@
     "lint": "next lint",
     "typecheck": "tsc --noEmit",
     "test": "vitest run",
-    "test:watch": "vitest"
+    "test:watch": "vitest",
+    "prompts": "node scripts/build-content-prompts.mjs",
+    "prompts:check": "node scripts/build-content-prompts.mjs --check",
+    "studio": "node scripts/prompt-studio.mjs"
   },
   "dependencies": {
     "clsx": "^2.1.1",

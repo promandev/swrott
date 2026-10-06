@@ -1,0 +1,253 @@
+{
+  "npc_darth_voren": {
+    "subject": "tall imposing Sith Lord, gaunt corpse-pale grey skull-like face with sunken cheeks and glowing ember-red eyes, heavy floor-length black robe lined in dark crimson with a high collar, armored steel pauldrons and a segmented gorget, black gauntlets, one hand resting on a lightsaber hilt at the belt, utterly still and commanding, looking down at the viewer",
+    "notes": "Tu primer maestro. Debe leerse como alguien que ya ha decidido que eres prescindible: quietud absoluta, cero tensión muscular."
+  },
+  "npc_archivist_kheln": {
+    "subject": "elderly red-skinned Sith pureblood archivist, tendril cheeks and a long white goatee, deep black hood pulled forward, dark-red floor-length robe embroidered with gold Sith glyphs running down the front placket, cradling a small golden orrery-orb in both hands, spectacles of dark glass, patient and amused",
+    "notes": "Habla en acertijos: la sonrisa mínima es lo que lo vende. El orbe dorado es su punto de luz cálida."
+  },
+  "npc_overseer_raxis": {
+    "subject": "stern human woman in her forties, cropped auburn hair, a red ritual scar cut across the brow, dark purple-black overseer armor with a long tabard to the knee, gold hoop earrings, gloved hands clasped behind the back, lean and upright, evaluating stare",
+    "notes": "Adiestra a base de brutalidad eficiente: la postura es de inspección, no de amenaza."
+  },
+  "npc_daryth": {
+    "subject": "young male Sith acolyte in his early twenties, plain dark grey-black acolyte robes with a plain belt, short brown hair, pale blue eyes, arms folded, a faint confident smirk that does not reach the eyes, wiry build",
+    "notes": "Rival de academia. Todo en él es ordinario menos la sonrisa — ahí está el resentimiento."
+  },
+  "npc_kira_slave": {
+    "subject": "young blue-skinned Twi'lek slave girl, two lekku wrapped in a dark cloth headband, ragged maroon wrap-dress patched at the hem, broken shackle rings still closed on both wrists, bare dusty feet, thin from the mines, chin up with defiant eyes",
+    "notes": "Las cadenas rotas son el detalle narrativo. Desafío, no súplica."
+  },
+  "npc_merchant_grot": {
+    "subject": "Rodian black-market trader, green pebbled skin, large faceted black eyes and a short snout, antennae, worn leather utility vest over a grubby undershirt, satchel and bandolier of tools and trinkets, both hands open mid-pitch, shrewd posture",
+    "notes": "El código lo define como rodiano — respeta la anatomía rodiana (ojos grandes, hocico, antenas)."
+  },
+  "npc_seyla": {
+    "subject": "weathered human cantina keeper woman in her sixties, grey hair tied back in a faded bandana, lean wiry build, worn brown leather vest over an olive shirt with rolled sleeves, heavy utility belt with pouches, steel forearm guards, scuffed boots, one hand on the hip, knowing half-smile",
+    "notes": "Ha sobrevivido a tres administraciones de Czerka: la seguridad viene del peso en las caderas, no de la ropa."
+  },
+  "npc_czerka_varn": {
+    "subject": "middle-aged human corporate man sweating through an immaculate navy Czerka suit with a company pin, red tie slightly loosened, slicked-back thinning hair, clutching a datapad against the chest with both hands, forced nervous smile, damp collar",
+    "notes": "El calor de Korriban es parte del personaje: brillos de sudor en la frente y el cuello."
+  },
+  "npc_thane": {
+    "subject": "frightened young man in his late teens, low brown hood and travel cloak pulled close, dark-red acolyte under-robe visible at the throat, trembling hands half-hidden in the sleeves, a deserter's brand burned on the back of one hand, downcast eyes, shoulders drawn in",
+    "notes": "Ocupa el menor espacio posible. La marca de desertor debe verse."
+  },
+  "npc_arena_master_dregg": {
+    "subject": "broad-shouldered Zabrak arena master, crown of short facial horns and black facial tattoos, sleeveless studded leather harness over heavily scarred muscle, forearm wraps, a string of betting chits and a coiled whip at the belt, arms crossed over a barrel chest, bored appraising look",
+    "notes": "Ve cuerpos como apuestas. Cicatrices viejas y bien curadas, no heridas."
+  },
+  "npc_acolyte_rhen": {
+    "subject": "slight timid young acolyte, oversized grey acolyte robes with sleeves past the hands, hunched narrow shoulders, clutching an unlit training saber across the chest like a shield, mousy hair, anxious sidelong glance",
+    "notes": "La ropa le queda grande a propósito: parece un niño disfrazado de Sith."
+  },
+  "npc_sera_vant": {
+    "subject": "young human woman in her early twenties, plain Dreshdae serving clothes with a stained apron and a rag tucked at the waist, dark hair pulled back severely, eyes dry and red-rimmed from crying too long, holding a small sealed funerary urn against her stomach with both hands, exhausted composure",
+    "notes": "Ya no llora — ese es el punto. La urna es el prop que cuenta toda la quest."
+  },
+  "npc_dreshdae_senna": {
+    "subject": "washed-out former acolyte woman in her twenties, threadbare civilian tunic thrown over the grey Academy underlayers she never replaced, hollow-eyed with dark circles, hair unwashed, arms crossed defensively over the chest, weight shifted back",
+    "notes": "Sigue llevando la ropa interior de la Academia: no ha aceptado que la echaron."
+  },
+  "npc_servitor_koro": {
+    "subject": "elderly Twi'lek manservant, pale grey-lavender skin, thin lekku hanging limp with age, plain dark Academy servant's tunic worn colourless at the elbows, a scrubbing cloth and bucket in one hand, deeply bowed at the waist with eyes carefully lowered, decades of caution in the posture",
+    "notes": "Sobrevive inclinándose primero. La reverencia es refleja, no respetuosa."
+  },
+
+  "npc_moff_kallus": {
+    "subject": "obese polished Imperial Moff, immaculate grey-green uniform straining slightly at the buttons with a rank plaque and code cylinders, thinning hair combed flat, cold grey eyes in a soft face, gloved hands clasped over the belly, sweating faintly",
+    "notes": "Burócrata obeso con talento para sobrevivir: la pulcritud del uniforme contra la blandura del hombre."
+  },
+  "npc_darth_seris": {
+    "subject": "tall cold Sith Lord woman of the Dark Council, floor-length black silk robes with silver filigree at the cuffs and collar, severe sculpted beauty, black hair drawn back flawlessly, hands hidden in opposing sleeves, looking through the viewer rather than at them",
+    "notes": "Habla de ti en tercera persona estando tú delante: la mirada no se enfoca en la cámara."
+  },
+  "npc_informant_vex": {
+    "subject": "scarred Twi'lek information broker, deep violet skin, lekku wrapped in dark protective cloth, dark hooded jacket over a mesh underlayer, a thin scar splitting one eyebrow, datapad palmed low at the hip, sly distrustful grin, weight on the back foot",
+    "notes": "Siempre listo para irse: el peso atrás y la salida controlada."
+  },
+  "npc_merchant_drayven": {
+    "subject": "Sith artificer armorer, heavy scorched leather apron over dark work clothes, bare forearms marked with old burn scars, a harness of kyber-cutting tools across the chest, a brass cybernetic loupe over one eye, forge-smudged hands holding a half-finished hilt",
+    "notes": "Precio alto, calidad real. Manchas de forja auténticas, no decorativas."
+  },
+  "npc_acolyte_thirix": {
+    "subject": "young frightened Zabrak acolyte, small crown of facial horns and faint clan tattoos, grey initiate robes too new to be worn in, glancing back over one shoulder, both hands gripping the opposite forearms, on the edge of bolting",
+    "notes": "Se arrepiente por completo de haber venido: el cuerpo ya está girado hacia la salida."
+  },
+  "npc_jorra_cantina": {
+    "subject": "weathered Mirialan cantina keeper woman in her fifties, olive-green skin with geometric black chin and cheek tattoos, apron over a practical tunic with sleeves rolled, pouring from a bottle into a glass without looking at it, head tilted in the posture of someone listening to the next table",
+    "notes": "Lo oye todo: sirve mirando a otro lado. Ese gesto es el personaje."
+  },
+  "npc_agent_veyra": {
+    "subject": "watchful undercover agent woman in her thirties, plain civilian coat cut a little too straight over a concealed hip holster, hair unremarkable, a cold untouched cup of caf on the table before her, restless eyes tracking off to the side, stillness that costs effort",
+    "notes": "El café frío indica cuánto lleva sentada. Ropa deliberadamente olvidable."
+  },
+  "npc_hunter_brakk": {
+    "subject": "Trandoshan hunter, green-brown reptilian scales and a heavy jaw of small teeth, yellow slit eyes, one arm ending in a crude cybernetic stump below the elbow, trophy-strung leather harness of claws and teeth over a bare scaled chest, battered slug-thrower rifle braced on the good arm, resentful set to the head",
+    "notes": "El muñón cibernético es de un gundark alfa — barato y mal ajustado, no de alta tecnología."
+  },
+  "npc_lord_malvek": {
+    "subject": "lean Sith magistrate in his fifties, silver hair slicked straight back, manicured hands with rings, fine black-and-violet court robes with a tailored waist and gold piping, thin serpentine smile, fingers steepled at chest height, elegant contained posture",
+    "notes": "Cortesano antes que guerrero: la ropa está hecha a medida y sin una arruga."
+  },
+  "npc_blind_seer_tavros": {
+    "subject": "blind seer, grey rag robes layered over a bony frame, eyes wrapped in stained yellowed bandages, long gnarled wooden staff held in both hands, weathered upturned face, rain-soaked hem, unnatural prophetic stillness",
+    "notes": "Sentado junto al muro exterior del Templo: empapado, inmóvil, orientado hacia ti sin ojos."
+  },
+  "npc_captain_rhea": {
+    "subject": "Imperial garrison commander woman in her thirties, sleek black Imperial officer armor with a peaked cap and rank insignia, blaster sidearm holstered at the thigh, short practical hair, jaw tight, weary resentful eyes, standing at a parade rest she no longer believes in",
+    "notes": "Hace cumplir una ley en la que ya no cree: el cansancio está en los ojos, no en la postura."
+  },
+  "npc_sergeant_korso": {
+    "subject": "Imperial deserter sergeant, mid-thirties, torn Kaas Rifles fatigues with the unit patch deliberately cut away, jungle mud caked to the knees, a week of beard, an old scoped rifle held across the body with both hands, hollow furious eyes, rain-plastered hair",
+    "notes": "Único superviviente de su escuadra. El parche arrancado es el detalle clave: ya no es imperial."
+  },
+
+  "npc_informant_zek": {
+    "subject": "nervous Duros informant, smooth blue-green skin, large lidless red eyes and a lipless mouth, no nose, rumpled spacer coat over a stained undershirt, hunched narrow shoulders, one hand twitching at the collar, glancing sideways",
+    "notes": "Sabe demasiado sobre demasiada gente: el tic nervioso es constante."
+  },
+  "npc_bartender_mira": {
+    "subject": "sharp-tongued human bartender woman in her forties, sleeves rolled to the elbow over strong forearms, apron tied at the waist, dishrag slung over one shoulder, dark hair knotted up, one eyebrow raised in a knowing smirk, neon rim-light from below and behind",
+    "notes": "Veinte años tras la misma barra. La luz de neón de Nar Shaddaa debe teñirle el borde del pelo."
+  },
+  "npc_arms_dealer": {
+    "subject": "Weequay arms dealer, deeply wrinkled leathery tan skin, beaded chin braids, a mechanical right arm of exposed chrome servos, open vest over a bare chest, an open crate of blaster pistols at his feet, sly sideways grin",
+    "notes": "Filosofía de 'neutralidad moral': vende a todos, sonríe a todos."
+  },
+  "npc_alchemist": {
+    "subject": "rogue Sith alchemist, gaunt hooded robed figure, acid-stained gloves and cuffs, a bandolier rack of glowing vials in toxic green and violet across the chest, sunken eyes lit from below by the vials, unsettling calm half-smile, thin and still",
+    "notes": "Los viales son la única fuente de luz: iluminan la cara desde abajo."
+  },
+  "npc_broker_neth": {
+    "subject": "Exchange crime lord, heavyset human in a fine dark coat with metal signet rings on thick fingers, a lit cigarra between two knuckles, slicked hair and a trimmed beard, seated heavily in a custom armored office chair, unblinking long-memory glare",
+    "notes": "Es el único NPC sentado: la silla blindada es parte de la silueta."
+  },
+  "npc_cyra_venn": {
+    "subject": "lethal Mirialan bounty hunter woman, olive-green skin with fine black geometric tattoos across the nose and cheekbones, sleek charcoal armor with a segmented cuirass and thigh plates, twin blaster pistols holstered low on both hips, hair in a tight braid, calm professional stare, relaxed ready stance",
+    "notes": "Profesional, no sádica. La calma es la amenaza."
+  },
+  "npc_dockmaster_kull": {
+    "subject": "massive Gamorrean dockmaster, green porcine bulk with tusks and small deep-set eyes, grease-stained heavy work harness over a swollen belly, a datapad manifest held delicately in one enormous hand, head slightly tilted in unexpectedly thoughtful contemplation",
+    "notes": "Cita meditaciones entre manifiestos: el contraste entre la mole y la delicadeza con la que sostiene el datapad."
+  },
+  "npc_refugee_elder": {
+    "subject": "elderly Twi'lek woman, pale green weathered skin, thin lekku wrapped in a worn shawl, layered refugee clothing mended many times in mismatched cloth, a heavy travel pack still on her back as if never unpacked, gnarled hands gripping a walking stave, tired unbroken dignity",
+    "notes": "Sacó a tres familias de la guerra. Nunca ha deshecho el petate: no cree que esto sea el final del viaje."
+  },
+  "npc_oziri_sath": {
+    "subject": "smooth Hutt-employed information agent, slender human-like figure in an expensive iridescent coat over dark silks, rings on every finger, oiled dark hair, a small holoprojector disc balanced on the palm, an appraising smile that is already quoting you a price",
+    "notes": "Comercia con tu reputación: te mira como quien tasa una pieza, no como quien saluda."
+  },
+  "npc_tessa_roan": {
+    "subject": "human dockworker woman in her thirties, heavy loader's harness and padded work gloves over a grease-marked jumpsuit, strong shoulders, hair escaping a work tie, a child's small knitted toy clutched in one fist, face wrecked by a night without sleep, pleading and rigid at once",
+    "notes": "El juguete de la niña en el puño cerrado es todo el gancho emocional de la quest."
+  },
+  "npc_slaver_vross": {
+    "subject": "Weequay Exchange debt-broker, leathery creased skin, a crooked smile of yellow teeth, dark quilted coat with a heavy credit-chit purse at the belt, a datapad full of other people's names held casually at waist height, relaxed and utterly comfortable",
+    "notes": "La comodidad es lo repulsivo: vende personas con la misma calma con que se revisa una lista de carga."
+  },
+
+  "npc_queen_talira": {
+    "subject": "regal Onderonian queen in her forties, ornate green-and-gold royal gown with a heavy embroidered mantle over the shoulders, a slim circlet crown over dark braided hair, sceptre-less hands folded before her, chin level, proud political poise and a politician's unreadable face",
+    "notes": "Comparte personaje con `npc_queen_talia` (dos ids en los datos) — el mismo arte sirve para ambos."
+  },
+  "npc_queen_talia": {
+    "subject": "regal Onderonian queen in her forties, ornate green-and-gold royal gown with a heavy embroidered mantle over the shoulders, a slim circlet crown over dark braided hair, hands folded before her, chin level, proud political poise and a politician's unreadable face",
+    "notes": "Duplicado de `npc_queen_talira` en los datos. Genera una sola imagen y regístrala con los dos ids."
+  },
+  "npc_general_voss": {
+    "subject": "grizzled veteran Onderonian general in his sixties, dress military uniform in deep green with a row of campaign medals and a shoulder cord, grey crew cut, a long scar across the jaw, hands clasped behind the back, broad chest, weight evenly planted",
+    "notes": "Comparte personaje con `npc_general_vaklu` (dos ids en los datos) — mismo arte para ambos."
+  },
+  "npc_general_vaklu": {
+    "subject": "grizzled veteran Onderonian general in his sixties, dress military uniform in deep green with campaign medals and a shoulder cord, grey crew cut, a long scar across the jaw, hands clasped behind the back, broad chest, planted stance",
+    "notes": "Duplicado de `npc_general_voss` en los datos. Una sola imagen, dos ids en el registro."
+  },
+  "npc_onderon_herald": {
+    "subject": "Onderonian royal herald woman, formal tabard in the Crown's green and gold over a fitted court coat, a silver speaking-horn badge of office at the throat, hair pinned high, a sealed scroll-case held in the crook of one arm, measuring you with polite unblinking attention",
+    "notes": "La han enviado a tomarte la medida: cortesía perfecta, ojos de inventario."
+  },
+  "npc_dama_yvane": {
+    "subject": "elderly Onderonian noblewoman, once-fine court gown of faded purple velvet now a season out of fashion and carefully repaired at the cuffs, heavy old house jewellery, white hair in a severe formal arrangement, a cane she grips harder than she needs to, jaw set against humiliation",
+    "notes": "Le sobra oro y le falta orgullo: la ropa cara pero pasada de moda cuenta la caída de la Casa Marr."
+  },
+  "npc_lord_sarn": {
+    "subject": "arrogant young Onderonian noble, fashionable court coat in black and gold with an oversized house crest, rings and a jewelled duelling rapier worn as decoration, chin raised, one hand on the hip pushing the coat open, a smile of pure inherited certainty",
+    "notes": "Desprecia a los Sith hasta que uno le enseña lo que es el poder: la arrogancia debe ser frágil, no imponente."
+  },
+  "npc_hidden_jedi_ronar": {
+    "subject": "Jedi in hiding, middle-aged man in plain Onderonian labourer's clothes with rolled sleeves and work-worn boots, weathered calm face and short greying hair, a lightsaber hilt half-hidden under the belt at the back, watchful steady eyes, deliberately unremarkable posture",
+    "notes": "Todo en él dice obrero salvo la quietud de los ojos y el bulto bajo el cinturón."
+  },
+  "npc_onderon_merchant": {
+    "subject": "boisterous Onderonian beast-market trader woman, heavy drexl-leather apron over bright market clothes, forearms scarred from handling livestock, jungle relics and carved fangs strung on a display rack beside her, hands thrown wide mid-sales-pitch, hearty open grin",
+    "notes": "Energía alta: es la única NPC de Onderon con la boca abierta."
+  },
+  "npc_castellan_dree": {
+    "subject": "grey-haired palace seneschal in his sixties, formal dark court livery with silver piping and a ring of ceremonial keys of office at the belt, spotless white gloves, hands folded at the waist, composed observant expression, impeccable upright bearing",
+    "notes": "Ha sobrevivido a cuatro monarcas fijándose en todo: la mirada está ligeramente fuera de eje, observando la sala."
+  },
+
+  "npc_mandalore": {
+    "subject": "masked Mandalorian warlord, battle-worn beskar plate in deep clan blue and iron with field repairs, a horned T-visor helm, a heavy cape of predator pelts across one shoulder, blaster and vibroblade at the belt, arms loose and ready, immovable commanding stance",
+    "notes": "Nunca se quita el casco. La autoridad viene del peso y la quietud, no de la pose heroica."
+  },
+  "npc_mando_armorer": {
+    "subject": "Mandalorian clan armorer woman, heavy scorched forge apron over partial beskar armor, visor flipped up revealing soot-streaked cheeks and hard eyes, a smith's hammer in one hand and glowing tongs in the other, forge-light rim on the plate, braced working stance",
+    "notes": "La luz naranja de la forja es su fuente secundaria — que caliente el borde inferior de la armadura."
+  },
+  "npc_dral_karr": {
+    "subject": "exiled Mandalorian warrior, beskar armor stripped of all clan colour and sigils down to bare scoured metal, no helmet, shaved head and a heavy untended beard, deep parallel claw scars across the chest plate and throat, a single blaster carbine held slack at the side, shoulders low, eyes fixed on the ground",
+    "notes": "Desterrado por cobardía: la armadura sin colores de clan y la mirada baja son la vergüenza hecha silueta."
+  },
+  "npc_scout_kessa": {
+    "subject": "Onderonian scout woman in her late twenties, mud-caked jungle camo fatigues, one arm splinted and slung across the chest, carbine slung muzzle-down over the good shoulder, hair matted under a field cap, a thousand-metre stare fixed past the viewer",
+    "notes": "Última superviviente de su patrulla: la mirada no se enfoca en nada de esta escena."
+  },
+
+  "npc_jedi_master": {
+    "subject": "serene Miraluka Jedi woman in her sixties, eyeless with a simple woven cloth band across the brow, plain earth-toned robes in undyed linen, weathered calm face, silver-grey hair cropped short, hands resting one over the other, so still she seems part of the landscape",
+    "notes": "Sobrevivió a la purga escondiéndose a plena vista. Nada de sables, nada de poses."
+  },
+  "npc_crystal_heart": {
+    "subject": "colossal living kyber crystal formation, not a person, a two-metre cluster of pale blue-white crystal rising from the cave floor and pulsing with slow internal light, smaller shards orbiting it in slow suspension, faint refracted glow washing the surrounding rock, a presence rather than a face",
+    "notes": "No es un personaje: es una voluntad. Ignora la pose de combate del sufijo — centra el cristal en el lienzo y deja aire alrededor. Sin rostro, sin miembros."
+  },
+
+  "npc_telos_commander": {
+    "subject": "station security chief woman in her forties, blue-grey TSF officer uniform with a utility vest and rank tabs, sidearm holstered, short dark hair, a datapad tucked under one arm, dark circles under sharp alert eyes, exhausted but entirely in command",
+    "notes": "Sostiene la estación con poca gente y pocos créditos: cansancio competente, nunca derrota."
+  },
+  "npc_survivor_leader": {
+    "subject": "hard-worn human foreman in his fifties, layered scavenged coldweather gear over a faded Restoration Project jumpsuit with the logo half worn off, grey stubble and wind-cracked skin, a patched rifle with more repair tape than barrel held across the body, stubborn planted stance",
+    "notes": "Chatarra, terquedad y un rifle remendado: el mono del Proyecto descolorido es lo que queda de la esperanza institucional."
+  },
+  "npc_czerka_rep": {
+    "subject": "polished Czerka deputy director, immaculate corporate suit in Czerka orange-and-grey with a company pin, perfect catalogue smile, cold auditing eyes behind thin glasses, a datapad held like a ledger, hands soft and unmarked, relaxed predatory ease",
+    "notes": "Sonrisa de catálogo, ojos de auditoría: la sonrisa y la mirada deben contradecirse abiertamente."
+  },
+  "npc_dr_lira": {
+    "subject": "Restoration Project ecologist woman in her thirties, field coat over practical layers with sample vials clipped to the chest strap, hair tied back hastily, a scuffed datapad clutched to the chest, mud on the knees and forearms, hunted glance over one shoulder, frightened but resolved",
+    "notes": "La cazan por lo que sabe: la postura es de alguien que lleva días sin dormir en el mismo sitio."
+  },
+  "npc_dockhand_renn": {
+    "subject": "wiry nervous cargo handler in his twenties, grease-stained station jumpsuit with the sleeves tied at the waist, heavy work gloves, thin build, eyes flicking up and off to the side toward the security cameras, sweating at the temples, weight shifting",
+    "notes": "No mira nunca a cámara: la mirada va arriba y fuera de cuadro, hacia las cámaras de seguridad."
+  },
+
+  "npc_ziost_keeper": {
+    "subject": "frost-burned old woman, face and hands marked by pale frostbite scarring, wrapped in many layers of pale cortosis-thread cloth, an ice-rimed hood and a breath-frosted scarf, a heavy scavenger's pack of salvaged relics on her back, shrewd narrow squint against the wind",
+    "notes": "Paleta fría en todo menos la piel quemada por el hielo. El aliento debe verse."
+  },
+  "npc_ziost_archivist": {
+    "subject": "pale soft-spoken scholar in his thirties, dark Sith Archive robes dusted with frost at the shoulders and hem, sleepless shadowed eyes, thin frostbitten fingers holding a datapad and stylus, a scarf pulled down to speak, haunted by what he has been cataloguing",
+    "notes": "Lleva demasiado tiempo escuchando la Tumba Cantora: la mirada está a punto de quebrarse."
+  },
+  "npc_ziost_overseer": {
+    "subject": "centuries-old Sith warden woman, frost-cracked black armor rimed with ice at every seam, a long white braid stiff with frost, pale bloodless skin, a strange faraway gaze fixed on something far behind the viewer, standing motionless as if she has not moved in years",
+    "notes": "Siglos de frío la han vuelto ausente. La escarcha debe parecer parte de la armadura, no nieve reciente."
+  }
+}

@@ -39,7 +39,13 @@
 
 param(
     [bool]$Preview = $true,
-    [switch]$DeleteSource
+    [switch]$DeleteSource,
+    # ── Modo fichero único (lo usa scripts/prompt-studio.mjs) ──────────────
+    # Convierte SOLO -File hacia {-Id}.svg, ignorando $RENAME_MAP.
+    #   & scripts/convert-characters.ps1 -File "C:\...\foo.png" -Id npc_seyla [-Tolerance 90]
+    [string]$File,
+    [string]$Id,
+    [int]$Tolerance = 0
 )
 
 $SRC_DIR           = "D:\Developement\SWROTT\public\images\characters\full_body_sprite"
@@ -238,6 +244,18 @@ public static class BgFlood {
 "@ -ReferencedAssemblies System.Drawing
 
 if (-not (Test-Path $QA_DIR)) { New-Item -ItemType Directory -Path $QA_DIR -Force | Out-Null }
+
+# ── Modo fichero único: sustituye el mapa por una sola entrada ──────────────
+if ($Id) {
+    if (-not $File)             { throw "-Id requiere -File" }
+    if (-not (Test-Path $File)) { throw "No se encuentra el origen: $File" }
+    $resolved = (Resolve-Path $File).Path
+    $SRC_DIR  = Split-Path -Parent $resolved
+    $leaf     = Split-Path -Leaf   $resolved
+    $RENAME_MAP          = [ordered]@{ $leaf = $Id }
+    $TOLERANCE_OVERRIDES = @{}
+    if ($Tolerance -gt 0) { $TOLERANCE_OVERRIDES[$leaf] = $Tolerance }
+}
 
 foreach ($entry in $RENAME_MAP.GetEnumerator()) {
     $srcPath  = Join-Path $SRC_DIR $entry.Key
